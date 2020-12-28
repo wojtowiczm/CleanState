@@ -2,7 +2,7 @@
 //  CleanState_ArchitectureExampleTests.swift
 //  CleanState-ArchitectureExampleTests
 //
-//  Created by private on 28/12/2020.
+//  Created by Michał Wójtowicz on 28/12/2020.
 //
 
 import XCTest

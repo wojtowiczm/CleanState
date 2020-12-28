@@ -2,7 +2,7 @@
 //  CleanState_ArchitectureExampleApp.swift
 //  CleanState-ArchitectureExample
 //
-//  Created by private on 28/12/2020.
+//  Created by Michał Wójtowicz on 28/12/2020.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct CleanState_ArchitectureExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FormView.make()
         }
     }
 }

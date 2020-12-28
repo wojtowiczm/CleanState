@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		87AD3C46259A3AE50088545E /* CleanState_ArchitectureExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C45259A3AE50088545E /* CleanState_ArchitectureExampleApp.swift */; };
-		87AD3C48259A3AE50088545E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C47259A3AE50088545E /* ContentView.swift */; };
 		87AD3C4A259A3AE60088545E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AD3C49259A3AE60088545E /* Assets.xcassets */; };
 		87AD3C4D259A3AE60088545E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87AD3C4C259A3AE60088545E /* Preview Assets.xcassets */; };
 		87AD3C58259A3AE60088545E /* CleanState_ArchitectureExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C57259A3AE60088545E /* CleanState_ArchitectureExampleTests.swift */; };
 		87AD3C63259A3AE60088545E /* CleanState_ArchitectureExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C62259A3AE60088545E /* CleanState_ArchitectureExampleUITests.swift */; };
+		87AD3C75259A3F640088545E /* FormInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C74259A3F640088545E /* FormInteractor.swift */; };
+		87AD3C7D259A3FAA0088545E /* FormViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C7C259A3FAA0088545E /* FormViewState.swift */; };
+		87AD3C82259A40DC0088545E /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C81259A40DC0088545E /* FormView.swift */; };
+		87AD3C90259A53890088545E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C8F259A53890088545E /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 /* Begin PBXFileReference section */
 		87AD3C42259A3AE50088545E /* CleanState-ArchitectureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CleanState-ArchitectureExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AD3C45259A3AE50088545E /* CleanState_ArchitectureExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanState_ArchitectureExampleApp.swift; sourceTree = "<group>"; };
-		87AD3C47259A3AE50088545E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87AD3C49259A3AE60088545E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87AD3C4C259A3AE60088545E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87AD3C4E259A3AE60088545E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +47,10 @@
 		87AD3C5E259A3AE60088545E /* CleanState-ArchitectureExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CleanState-ArchitectureExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87AD3C62259A3AE60088545E /* CleanState_ArchitectureExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanState_ArchitectureExampleUITests.swift; sourceTree = "<group>"; };
 		87AD3C64259A3AE60088545E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87AD3C74259A3F640088545E /* FormInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInteractor.swift; sourceTree = "<group>"; };
+		87AD3C7C259A3FAA0088545E /* FormViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewState.swift; sourceTree = "<group>"; };
+		87AD3C81259A40DC0088545E /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		87AD3C8F259A53890088545E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +101,8 @@
 		87AD3C44259A3AE50088545E /* CleanState-ArchitectureExample */ = {
 			isa = PBXGroup;
 			children = (
+				87AD3C73259A3F510088545E /* FormExample */,
 				87AD3C45259A3AE50088545E /* CleanState_ArchitectureExampleApp.swift */,
-				87AD3C47259A3AE50088545E /* ContentView.swift */,
 				87AD3C49259A3AE60088545E /* Assets.xcassets */,
 				87AD3C4E259A3AE60088545E /* Info.plist */,
 				87AD3C4B259A3AE60088545E /* Preview Content */,
@@ -128,6 +134,17 @@
 				87AD3C64259A3AE60088545E /* Info.plist */,
 			);
 			path = "CleanState-ArchitectureExampleUITests";
+			sourceTree = "<group>";
+		};
+		87AD3C73259A3F510088545E /* FormExample */ = {
+			isa = PBXGroup;
+			children = (
+				87AD3C8F259A53890088545E /* WelcomeView.swift */,
+				87AD3C74259A3F640088545E /* FormInteractor.swift */,
+				87AD3C7C259A3FAA0088545E /* FormViewState.swift */,
+				87AD3C81259A40DC0088545E /* FormView.swift */,
+			);
+			path = FormExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87AD3C48259A3AE50088545E /* ContentView.swift in Sources */,
+				87AD3C75259A3F640088545E /* FormInteractor.swift in Sources */,
+				87AD3C90259A53890088545E /* WelcomeView.swift in Sources */,
+				87AD3C82259A40DC0088545E /* FormView.swift in Sources */,
+				87AD3C7D259A3FAA0088545E /* FormViewState.swift in Sources */,
 				87AD3C46259A3AE50088545E /* CleanState_ArchitectureExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
