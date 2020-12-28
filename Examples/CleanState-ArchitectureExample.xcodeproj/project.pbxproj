@@ -16,6 +16,7 @@
 		87AD3C7D259A3FAA0088545E /* FormViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C7C259A3FAA0088545E /* FormViewState.swift */; };
 		87AD3C82259A40DC0088545E /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C81259A40DC0088545E /* FormView.swift */; };
 		87AD3C90259A53890088545E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C8F259A53890088545E /* WelcomeView.swift */; };
+		87AD3CA4259A5C440088545E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87AD3CA3259A5C440088545E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		87AD3C7C259A3FAA0088545E /* FormViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewState.swift; sourceTree = "<group>"; };
 		87AD3C81259A40DC0088545E /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		87AD3C8F259A53890088545E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		87AD3CA3259A5C440088545E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		87AD3C39259A3AE50088545E = {
 			isa = PBXGroup;
 			children = (
+				87AD3CA3259A5C440088545E /* README.md */,
 				87AD3C44259A3AE50088545E /* CleanState-ArchitectureExample */,
 				87AD3C56259A3AE60088545E /* CleanState-ArchitectureExampleTests */,
 				87AD3C61259A3AE60088545E /* CleanState-ArchitectureExampleUITests */,
@@ -250,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87AD3CA4259A5C440088545E /* README.md in Resources */,
 				87AD3C4D259A3AE60088545E /* Preview Assets.xcassets in Resources */,
 				87AD3C4A259A3AE60088545E /* Assets.xcassets in Resources */,
 			);
