@@ -15,7 +15,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct FormView: View {
     @ObservedObject var state: FormViewState
-    let interactor: FormBussinessLogic
+    let interactor: FormBusinessLogic
     
     var body: some View {
         NavigationView {

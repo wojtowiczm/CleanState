@@ -7,11 +7,11 @@
 
 import Foundation
 
-protocol FormBussinessLogic {
+protocol FormBusinessLogic {
     func submit()
 }
 
-struct FormInteractor: FormBussinessLogic {
+struct FormInteractor: FormBusinessLogic {
     weak var presenter: FormPresentationLogic?
     unowned let data: FormData
     
