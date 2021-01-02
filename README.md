@@ -37,15 +37,6 @@ extension _Scenename_ViewState: _Scenename_PresentationLogic {
 }
 ```
 
-```switft
-struct _Scenename_View: View {
-    @ObservedObject var state: _Scenename_ViewState
-    let interactor: _Scenename_BusinessLogic
-    
-    var body: some View { ... }
-}
-```
-
 ### Interactor - Bussiness Logic 
 ```swift
 // Data exposed to logic
