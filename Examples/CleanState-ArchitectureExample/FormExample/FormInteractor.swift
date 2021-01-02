@@ -16,10 +16,6 @@ struct FormInteractor: FormBusinessLogic {
     unowned let data: FormData
     
     func submit() {
-        //
-        print("Call api using \(data.firstName) \(data.lastName)")
-        DispatchQueue.global().asyncAfter(deadline: .now() + 0.5) {
-            self.presenter?.presentSuccess()
-        }
+        presenter?.presentSuccess(message: "Hello, \(data.firstName)")
     }
 }

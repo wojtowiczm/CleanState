@@ -17,6 +17,7 @@
 		87AD3C82259A40DC0088545E /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C81259A40DC0088545E /* FormView.swift */; };
 		87AD3C90259A53890088545E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C8F259A53890088545E /* WelcomeView.swift */; };
 		87AD3CA4259A5C440088545E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87AD3CA3259A5C440088545E /* README.md */; };
+		87D5716825A0CC0C00358DDE /* FormInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		87AD3C81259A40DC0088545E /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		87AD3C8F259A53890088545E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		87AD3CA3259A5C440088545E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInteractorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		87AD3C56259A3AE60088545E /* CleanState-ArchitectureExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				87D5716625A0CBFB00358DDE /* FormExampleTests */,
 				87AD3C57259A3AE60088545E /* CleanState_ArchitectureExampleTests.swift */,
 				87AD3C59259A3AE60088545E /* Info.plist */,
 			);
@@ -148,6 +151,14 @@
 				87AD3C81259A40DC0088545E /* FormView.swift */,
 			);
 			path = FormExample;
+			sourceTree = "<group>";
+		};
+		87D5716625A0CBFB00358DDE /* FormExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */,
+			);
+			path = FormExampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D5716825A0CC0C00358DDE /* FormInteractorTests.swift in Sources */,
 				87AD3C58259A3AE60088545E /* CleanState_ArchitectureExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

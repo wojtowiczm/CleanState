@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol FormPresentationLogic: class {
-    func presentSuccess()
+    func presentSuccess(message: String)
 }
 
 // Data exposed to logic
@@ -47,9 +47,9 @@ final class FormViewState: ObservableObject, FormData {
 }
 
 extension FormViewState: FormPresentationLogic {
-    func presentSuccess() {
+    func presentSuccess(message: String) {
         DispatchQueue.main.async {
-            self.welcomeMessage = "Hello, \(self.firstName)"
+            self.welcomeMessage = message
         }
     }
 }
