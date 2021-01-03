@@ -62,3 +62,5 @@ struct _Scenename_Interactor: _Scenename_BusinessLogic {
 ## Flow diagram
 ![Diagram not loaded](https://github.com/wojtowiczm/CleanState/blob/main/FlowDiagram.png?raw=true)
 
+## Tests
+All components are fully testable 
