@@ -48,8 +48,6 @@ final class FormViewState: ObservableObject, FormData {
 
 extension FormViewState: FormPresentationLogic {
     func presentSuccess(message: String) {
-        DispatchQueue.main.async {
-            self.welcomeMessage = message
-        }
+        welcomeMessage = message
     }
 }

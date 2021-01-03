@@ -18,6 +18,7 @@
 		87AD3C90259A53890088545E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87AD3C8F259A53890088545E /* WelcomeView.swift */; };
 		87AD3CA4259A5C440088545E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87AD3CA3259A5C440088545E /* README.md */; };
 		87D5716825A0CC0C00358DDE /* FormInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */; };
+		87D5717025A2575200358DDE /* FormViewStateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D5716F25A2575200358DDE /* FormViewStateTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		87AD3C8F259A53890088545E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		87AD3CA3259A5C440088545E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInteractorTests.swift; sourceTree = "<group>"; };
+		87D5716F25A2575200358DDE /* FormViewStateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewStateTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				87D5716725A0CC0B00358DDE /* FormInteractorTests.swift */,
+				87D5716F25A2575200358DDE /* FormViewStateTest.swift */,
 			);
 			path = FormExampleTests;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87D5716825A0CC0C00358DDE /* FormInteractorTests.swift in Sources */,
+				87D5717025A2575200358DDE /* FormViewStateTest.swift in Sources */,
 				87AD3C58259A3AE60088545E /* CleanState_ArchitectureExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
